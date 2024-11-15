@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter';
+    background-color:  #20222F;
+    
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__container {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 46px;
+   
+    
+}
+.header-text {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.header-text2 {
+    color: #8C98C6;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.dark {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8C98C6;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.dark:hover {
+    color: white;
+}
+.but {
+    width:48px ;
+    height: 24px;
+    background-color:#20222F ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+.button {
+    background-color: rgb(35, 166, 144);
+    width: 48px;
+    height: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+      
+}
+.button::before {
+    position: absolute;
+    content: '';
+    background-color:#20222F ;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.5s ease-in-out;
+
+   
+    
+}
+input:checked + .button {
+    background-color: rgb(35, 166, 144);
+
+}
+input:checked + .button::before{
+    transform: translateX(18px);
+}
+input {
+    display: none;
+}
+
+.follows {
+    display: flex;
+    justify-content: space-between;
+}
+.follow {
+    width: 255px;
+    border-top: 4px solid #178FF5;
+    border-top-left-radius: 3px;
+    border-top-right-radius:3px ;
+    background-color: #252B42;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.follow:hover {
+    background-color: #333A55;
+    
+}
+.name {
+  
+    align-items: center;
+    gap: 8px;
+   text-decoration: none;
+   margin-bottom: 30px;
+}
+.a-link {
+    font-size: 12px;
+    font-weight: 700;
+
+    color: #8C98C6;
+   
+}
+.number {
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 9px;
+}
+.fol {
+    font-size: 12px;
+    font-weight: 700;
+    color:#8C98C6;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+.today {
+    display: flex;
+    margin-left: 94px;
+    gap: 4px;
+}
+.today-text {
+    font-size: 12px;
+    font-weight: 700;
+    color:  #1EB589;
+    
+}
+.follow1 {
+    width: 255px;
+    border-top: 4px solid  #C4032B;
+    
+    
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius:3px ;
+    background-color: #252B42;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.follow1:hover {
+    background-color: #333A55;
+    
+}
+.follow2 {
+    width: 255px;
+    border-top: 4px solid  #C4032B;
+    
+    
+    
+    border-top-left-radius: 3px;
+    border-top-right-radius:3px ;
+    background-color: #252B42;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.follow2:hover {
+    background-color: #333A55;
+    
+}
+.today-text2 {
+    font-size: 12px;
+    font-weight: 700;
+    color:  #C4032B;
+    
+}
+.today1 {
+    margin-top: 46px;
+}
+
+.over {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+.tod1 {
+    display: flex;
+    margin-bottom: 24px;
+    gap: 30px;
+}
+.tod2 {
+    display: flex;
+   gap: 30px;
+}
+.for1 {
+    display: flex;
+    gap: 30px;
+}
+.for2 {
+    display: flex;
+    gap: 30px;
+}
+.page {
+    width: 255px;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:  #252B42;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 24px;
+    transition: all 0.5s ease-in-out;
+    padding-right: 31px;
+
+}
+.page:hover {
+    background-color:  #333A55;
+    
+}
+.new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 21px;
+
+}
+.vie {
+    font-size: 14px;
+    font-weight: 700;
+    color:  #8C98C6;
+    
+}
+.natija {
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.num {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.rey {
+    font-size: 12px;
+    font-weight: 700;
+    color:  #1EB589;
+    
+}
+.rey1 {
+    font-size: 12px;
+    font-weight: 700;
+    color:   #DC414C;
+    
+    
+}
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 87%;
+    }
+    .follow {
+        width: 200px;
+    }
+    .follow2 {
+        width: 200px;
+
+    }
+    .follow1 {
+        width: 200px;
+    }
+    .tod1 {
+        display: inline;
+       padding-left: 30px;
+    }
+    .tod2 {
+        display: inline;
+       
+        padding-left: 30px;
+    }
+    .for1 {
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .for2 {
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    
+}
+@media screen and (max-width:992px) {
+    .follows {
+      gap: 15px;
+    }
+    .number {
+        font-size: 30px;
+        font-weight: 700;
+    
+    }
+    .today {
+        margin-left: 32px;
+    }
+   
+    .follow2 {
+        
+        padding: 10px;
+
+        
+
+
+    }
+    .num {
+        font-size: 30px;
+    }
+    .follow1 {
+      
+        padding: 10px;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .page {
+        justify-content: flex-start;
+    }
+    .page {
+        width: 150px;
+        padding-top: 26px;
+        padding-bottom: 20px;
+        text-align: center;
+        
+       
+       
+     
+    
+    }
+    .follows {
+      display: flex;
+        gap: 1px;
+        
+    }
+    .follow {
+        width: 100px;
+    }
+    .follow1 {
+        width: 100px;
+    }
+    .follow2 {
+        width: 100px;
+    }
+}
+@media screen and (max-width:576px) {
+    .header__container {
+       flex-wrap: wrap;
+    }
+    .follows {
+        display: inline;
+        text-align: center;
+    }
+    .follow {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .follow1 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .follow2 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .today {
+        text-align: center;
+       margin-left: 170px;
+    }
+}
